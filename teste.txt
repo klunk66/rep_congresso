@@ -11,4 +11,5 @@ git commit -m -- comitar alterações no arquivo e preparar para envio
 git push -- enviar para a nuvem
 --
 git checkout -b TESTE --  criar uma nova branch
-
+--
+git push origin nome_nova_branch -- manda a nova branch para o servidor
