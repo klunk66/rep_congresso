@@ -4,6 +4,6 @@ git config -- global user.email "emersonklunk2014@gmail.com" -- setar o email do
 --
 git config -- global user.name "Emerson Klunk" -- setar o nome do autor das alterações
 --#####################--
-git add nome_arquivo -- adiciona o arquivo no repositorio
-teste
+git add . -- adiciona o arquivo no repositorio
+
 
