@@ -12,9 +12,9 @@ git push -- enviar para a nuvem
 --
 git checkout -b TESTE --  criar uma nova branch
 --
-<<<<<<< HEAD
 git merge nome_da_branch_de_teste -- mesclar as alterações da branch com a master
-
-=======
+--
 git push origin nome_nova_branch -- manda a nova branch para o servidor
->>>>>>> ifsul
+--
+git reset --hard origin/master
+
