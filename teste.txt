@@ -1,8 +1,8 @@
-git clone link_repositorio -- Faz o clone do repositório e sincroniza com o git
+﻿git clone link_repositorio -- Faz o clone do repositório e sincroniza com o git
 --##OS PASSOS A SEGUIR DEVEM SER EXECUTADOS SOMENTE UMA VEZ##--
-git config -- global user.email "emersonklunk2014@gmail.com" -- setar o email do git
+git config --global user.email "emersonklunk2014@gmail.com" -- setar o email do git
 --
-git config -- global user.name "Emerson Klunk" -- setar o nome do autor das alterações
+git config --global user.name "Emerson Klunk" -- setar o nome do autor das alterações
 --#####################--
 git add . -- adiciona o arquivo no repositorio
 --
@@ -11,4 +11,6 @@ git commit -m -- comitar alterações no arquivo e preparar para envio
 git push -- enviar para a nuvem
 --
 git checkout -b TESTE --  criar uma nova branch
+--
+git merge nome_da_branch_de_teste -- mesclar as alterações da branch com a master
 
